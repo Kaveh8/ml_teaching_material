@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the clean dataset
-df = pd.read_csv('student_performance.csv')
+df = pd.read_csv('../Datasets/student_performance.csv')
 
 # --- Introduce Missing Values ---
 # Randomly set 10% of the 'Hours Studied' to NaN
